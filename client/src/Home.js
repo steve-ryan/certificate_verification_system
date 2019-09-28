@@ -11,7 +11,7 @@ function Home(){
         </div>
         <div className="verify">
           <Link to="/verify">
-            <button class="btn btn-success">Verify Now</button>
+            <button className="btn btn-success">Verify Now</button>
           </Link>
         </div>
       </div>
