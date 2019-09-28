@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* custom style */
+
+#navbar {
+  background-color: lightseagreen;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar a:hover {
+  color: cornsilk;
+}
+
+.nav-item {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.login-page {
+  width: 360px;
+  /* padding: 8% 0 0; */
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form button:hover, .form button:active, .form button:focus {
+  background: green;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message a {
+  color: green;
+  text-decoration: none;
+}
+
+.l-head {
+  text-transform: uppercase;
+  text-align: center;
+  color: green;
+}
+
+h4 {
+  text-align: center;
+  font-style: italic;
+}
+
+a, .errmsg {
+  text-decoration: none;
+  text-align: center;
+  padding: 50 0px;
+}
+
+.errmsg>a {
+  color: red;
+}
+
+.fadmin {
+  padding: 0 25px;
+}
+
+.adminf {
+  background-color: #dfdbdb;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input, input:valid {
+  border-color: green;
+}
+
+.radio-inline {
+  padding: 0 10px;
+  /* margin: 0 10px; */
+}
+
+.verify {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+}
+
+.cert:hover {
+  position: relative;
+  width: 500px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+
+/* Verify page */
+.container >form {
+  display:flex;
+  flex-direction:row;
+  padding: 5px;
+margin: 0 auto;
+  border:1px solid grey;
+  padding:2px;
+}
+
+input {
+  flex-grow:2;
+  border:none;
+}
+
+input:focus {
+  outline: none;
+}
